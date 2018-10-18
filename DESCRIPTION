@@ -1,0 +1,24 @@
+Package: spectRa
+Type: Package
+Title: Database of Biological Reflectance, Absorbance, and Transmission Spectra
+Description: A personal spectral database.
+Date: 2018-09-28
+Version: 0.1.0
+Authors@R: c(person("Thomas", "White", role = c("aut", "cre"),
+          email = "thomas.white@sydney.edu.au"))
+Maintainer: Thomas E. White <thomas.white@sydney.edu.au>
+License: GPL (>= 2)
+LazyData: FALSE
+Encoding: UTF-8
+RoxygenNote: 6.1.0
+Depends:
+  R (>= 2.10)
+Imports:
+  dplyr,
+  pavo,
+  devtools,
+  utils
+Suggests:
+  knitr
+VignetteBuilder: knitr
+Language: en-GB
